@@ -1,0 +1,59 @@
+/* Tùy chỉnh thanh cuộn cho trình duyệt Webkit (Chrome, Safari, newer versions of Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Tùy chỉnh thanh cuộn cho Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+/* Tùy chỉnh thanh cuộn cho Edge và Internet Explorer */
+body {
+    -ms-overflow-style: none;
+}
+
+/* Ẩn thanh cuộn mặc định của trình duyệt */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Tạo một container có thể cuộn với thanh cuộn tùy chỉnh */
+.custom-scrollbar {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,190 @@
+{
+    "expenses": [
+        {
+            "date": "11/2021",
+            "rent": 2800000,
+            "electricity": 745500,
+            "water": 64000
+        },
+        {
+            "date": "12/2021",
+            "rent": 2800000,
+            "electricity": 836500,
+            "water": 72000
+        },
+        {
+            "date": "03/2022",
+            "rent": 2800000,
+            "electricity": 315000,
+            "water": 24000
+        },
+        {
+            "date": "04/2022",
+            "rent": 2800000,
+            "electricity": 630000,
+            "water": 40000
+        },
+        {
+            "date": "06/2022",
+            "rent": 2800000,
+            "electricity": 525000,
+            "water": 40000
+        },
+        {
+            "date": "07/2022",
+            "rent": 2800000,
+            "electricity": 794500,
+            "water": 48000
+        },
+        {
+            "date": "08/2022",
+            "rent": 2800000,
+            "electricity": 518000,
+            "water": 40000
+        },
+        {
+            "date": "09/2022",
+            "rent": 2650000,
+            "electricity": 609000,
+            "water": 40000
+        },
+        {
+            "date": "12/2022",
+            "rent": 2800000,
+            "electricity": 361000,
+            "water": 9000
+        },
+        {
+            "date": "01/2023",
+            "rent": 2800000,
+            "electricity": 300000,
+            "water": 45000
+        },
+        {
+            "date": "02/2023",
+            "rent": 2800000,
+            "electricity": 216000,
+            "water": 27000
+        },
+        {
+            "date": "03/2023",
+            "rent": 2800000,
+            "electricity": 357000,
+            "water": 36000
+        },
+        {
+            "date": "04/2023",
+            "rent": 2800000,
+            "electricity": 399000,
+            "water": 45000
+        },
+        {
+            "date": "05/2023",
+            "rent": 2800000,
+            "electricity": 537000,
+            "water": 36000
+        },
+        {
+            "date": "06/2023",
+            "rent": 2800000,
+            "electricity": 648000,
+            "water": 45000
+        },
+        {
+            "date": "07/2023",
+            "rent": 2800000,
+            "electricity": 360000,
+            "water": 45000
+        },
+        {
+            "date": "08/2023",
+            "rent": 2800000,
+            "electricity": 327000,
+            "water": 36000
+        },
+        {
+            "date": "09/2023",
+            "rent": 2800000,
+            "electricity": 492000,
+            "water": 54000
+        },
+        {
+            "date": "10/2023",
+            "rent": 2800000,
+            "electricity": 375000,
+            "water": 45000
+        },
+        {
+            "date": "11/2023",
+            "rent": 2800000,
+            "electricity": 372000,
+            "water": 36000
+        },
+        {
+            "date": "12/2023",
+            "rent": 2800000,
+            "electricity": 423500,
+            "water": 45000
+        },
+        {
+            "date": "01/2024",
+            "rent": 2800000,
+            "electricity": 441000,
+            "water": 45000
+        },
+        {
+            "date": "02/2024",
+            "rent": 2800000,
+            "electricity": 500500,
+            "water": 36000
+        },
+        {
+            "date": "03/2024",
+            "rent": 2800000,
+            "electricity": 395500,
+            "water": 36000
+        },
+        {
+            "date": "04/2024",
+            "rent": 2900000,
+            "electricity": 665000,
+            "water": 63000
+        },
+        {
+            "date": "05/2024",
+            "rent": 3200000,
+            "electricity": 899500,
+            "water": 54000
+        },
+        {
+            "date": "06/2024",
+            "rent": 3200000,
+            "electricity": 1232000,
+            "water": 81000
+        },
+        {
+            "date": "07/2024",
+            "rent": 3000000,
+            "electricity": 854000,
+            "water": 63000
+        },
+        {
+            "date": "08/2024",
+            "rent": 3000000,
+            "electricity": 514500,
+            "water": 60000
+        },
+        {
+            "date": "09/2024",
+            "rent": 3000000,
+            "electricity": 633500,
+            "water": 60000
+        },
+        {
+            "date": "10/2024",
+            "rent": 3400000,
+            "electricity": 658000,
+            "water": 96000
+        }
+    ]
+}
