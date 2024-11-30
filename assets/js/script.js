@@ -168,6 +168,7 @@ $(document).ready(function () {
         const totalExpenses = expenses.map((item) => item.rent + item.electricity + item.water);
 
         updateUI(data);
+        bindTableData(data.expenses);
 
         const commonOptions = {
             responsive: true,
@@ -879,6 +880,58 @@ $(document).ready(function () {
         "Xem xét việc làm thêm công việc phụ để tăng thu nhập.",
         "Tạo một quỹ 'vui chơi' riêng để tránh chi tiêu quá mức cho giải trí.",
     ];
+
+    function bindTableData(data) {
+        const table = $("#summary-table");
+        data.forEach(function (item, index) {
+            table.find(
+                "tbody"
+            ).append(`<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="border px-6 py-4 text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            ${item.date}
+                        </th>
+                        <td class="border px-6 py-4 text-right">
+                            ${formatCurrency(item.rent)}
+                        </td>
+                        <td class="border px-6 py-4 text-right">
+                            ${formatCurrency(item.electricity)}
+                        </td>
+                        <td class="border px-6 py-4 text-right">
+                            ${formatCurrency(item.water)}
+                        </td>
+                        <td class="border px-6 py-4 text-right">
+                            ${formatCurrency(item.rent + item.electricity + item.water)}
+                        </td>
+                    </tr>`);
+        });
+        table.find(
+            "tfoot"
+        ).html(`<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="border px-6 py-4 font-semibold text-gray-900 whitespace-nowrap dark:text-white">
+                        Tổng cộng
+                    </th>
+                    <td class="border px-6 py-4 text-right">
+                        ${formatCurrency(data.reduce((sum, item) => sum + (item.rent || 0), 0))}
+                    </td>
+                    <td class="border px-6 py-4 text-right">
+                        ${formatCurrency(
+                            data.reduce((sum, item) => sum + (item.electricity || 0), 0)
+                        )}
+                    </td>
+                    <td class="border px-6 py-4 text-right">
+                        ${formatCurrency(data.reduce((sum, item) => sum + (item.water || 0), 0))}
+                    </td>
+                    <td class="border px-6 py-4 text-right">
+                        ${formatCurrency(
+                            data.reduce(
+                                (sum, item) =>
+                                    sum + (item.rent + item.electricity + item.water || 0),
+                                0
+                            )
+                        )}
+                    </td>
+                </tr>`);
+    }
 });
 
 // Thêm hàm này vào đầu file hoặc trong phần khai báo hàm
