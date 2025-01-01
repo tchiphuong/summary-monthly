@@ -197,6 +197,12 @@
             "rent": 3400000,
             "electricity": 735000,
             "water": 84000
+        },
+        {
+            "date": "01/2025",
+            "rent": 3400000,
+            "electricity": 553000,
+            "water": 72000
         }
     ]
 }
